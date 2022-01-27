@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from stories import Story, story
+from stories import story
 
 app = Flask(__name__)
 
